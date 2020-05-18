@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 import tw from 'tailwind.macro';
 
+import "katex/dist/katex.min.css";
+
 export const Title = styled.h3`
   ${tw`font-semibold mb-4`};
 `;
