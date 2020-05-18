@@ -34,12 +34,13 @@ module.exports = {
           },
           {
             resolve: 'gatsby-remark-prismjs',
-            options: {
-                // classPrefix:"language-",
-                aliases: {sh: "bash", js:"javascript"},              
+            options: {                
+                aliases: {sh: "bash", js:"javascript", bash:"shell", md:"markdown"},              
                 showLineNumbers: true,
             }
-          }           
+          },
+          `gatsby-remark-code-titles`,
+          `gatsby-remark-mathjax`,           
         ]
       }
     },

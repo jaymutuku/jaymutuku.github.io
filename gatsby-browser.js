@@ -4,6 +4,6 @@ import "./src/assets/styles/global.css";
 import "prismjs/themes/prism-okaidia.css";
 
 import "./src/highlight.css";
+import "prismjs/plugins/line-numbers/prism-line-numbers.css"
 
 // require("prismjs/themes/prism-tomorrow.css");
-// require("prismjs/plugins/line-numbers/prism-line-numbers.css");

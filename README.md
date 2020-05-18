@@ -31,9 +31,11 @@ $ git merge develop
 ```
 #### Step 7: Deploy your site to your master branch
 ```
-$ npm run build && node ./scripts/deploy-github
+$ sudo npm run build && node ./scripts/deploy-github
 ```
 
 ### Step 8: Check your site is running and changes were effected
 
 https://jaymutuku.github.io
+
+Clear browser cache if you don't see changes

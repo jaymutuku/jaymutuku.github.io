@@ -1,10 +1,10 @@
 ---
 category: 'blog'
 cover: './cover.jpg'
-title: 'Inspiration Post'
-description: 'These are the blogs that inspire me!'
+title: 'The Singularity'
+description: 'Will we survive our Technology?'
 date: '2020-05-18'
-tags: ['Inspiration']
+tags: ['Inspiration', 'Artificial Intelligence']
 published: true
 ---
 
@@ -50,7 +50,7 @@ $$
 
 ### Generate Fibonacci series upto a certain number
 
-```cpp
+```cpp:title=fibonacci.cpp
 #include <iostream>
 using namespace std;
 

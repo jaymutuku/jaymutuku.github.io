@@ -20,7 +20,7 @@ Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit la
 
 #### code Snippet
 
-```python
+```python:title=factorial.py
 # Python program to find the factorial of a number provided by the user.
 
 # change the value for a different result

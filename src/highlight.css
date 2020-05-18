@@ -1,3 +1,127 @@
+/**
+ * Based on:
+ *
+ * prism.js tomorrow night eighties for JavaScript, CoffeeScript, CSS and HTML
+ * Based on https://github.com/chriskempson/tomorrow-theme
+ * @author Rose Pritchard
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+    color: #ccc;
+    background: none;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono,
+        Courier New, monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+    padding: 1em;
+    margin: 0.5em 0;
+    overflow: auto;
+}
+
+:not(pre)>code[class*="language-"],
+pre[class*="language-"] {
+    background: #2d2d2d;
+}
+
+/* Inline code */
+:not(pre)>code[class*="language-"] {
+    padding: 0.1em;
+    white-space: normal;
+}
+
+.token.comment,
+.token.block-comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: #999;
+}
+
+.token.punctuation {
+    color: #ccc;
+}
+
+.token.tag,
+.token.attr-name,
+.token.namespace,
+.token.deleted {
+    color: #e2777a;
+}
+
+.token.function-name {
+    color: #6196cc;
+}
+
+.token.boolean,
+.token.number,
+.token.function {
+    color: #f08d49;
+}
+
+.token.property,
+.token.class-name,
+.token.constant,
+.token.symbol {
+    color: #f8c555;
+}
+
+.token.selector,
+.token.important,
+.token.atrule,
+.token.keyword,
+.token.builtin {
+    color: #cc99cd;
+}
+
+.token.string,
+.token.char,
+.token.attr-value,
+.token.regex,
+.token.variable {
+    color: #7ec699;
+}
+
+.token.operator,
+.token.entity,
+.token.url {
+    color: #67cdcc;
+}
+
+.token.important,
+.token.bold {
+    font-weight: bold;
+}
+
+.token.italic {
+    font-style: italic;
+}
+
+.token.entity {
+    cursor: help;
+}
+
+.token.inserted {
+    color: green;
+}
+
 .gatsby-highlight-code-line {
     background-color: #454545;
     display: block;
@@ -10,17 +134,121 @@
 
 .gatsby-highlight {
     background-color: #2d2d2d;
-    border-radius: 0.3em;
     margin: 0.5em 0;
     padding: 1em;
     overflow: auto;
+    border-radius: 0.3em;
+    /* position: relative; */
 }
 
-.gatsby-highlight pre[class*="language-"] {
+.gatsby-highlight pre[class*="language-"].line-numbers {
     background-color: transparent;
     margin: 0;
     padding: 0;
     overflow: initial;
     float: left;
     min-width: 100%;
+}
+
+.gatsby-code-title {
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+    margin-bottom: -0.5rem;
+    border-bottom: 1px solid #ccc;
+    padding: 0.5rem 1rem 0.5rem;
+    background-color: #2d2d2d;
+    color: #ccc;
+}
+
+.gatsby-highlight pre[class*="language-"].line-numbers {
+    background-color: transparent;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    padding: 1.5rem 0px;
+}
+
+.gatsby-highlight pre[class*="language-"]::before {
+    color: #2d2d2d;
+    font-size: 0.75rem;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono,
+        Courier New, monospace;
+    letter-spacing: 0.075em;
+    line-height: 1;
+    position: absolute;
+    left: 1rem;
+    text-align: right;
+    text-transform: uppercase;
+    top: 0px;
+    border-radius: 0px 0px 4px 4px;
+    padding: 0.25rem 0.5rem;
+    background-color: #ccc;
+}
+
+.gatsby-highlight pre[class="language-jsx"]::before {
+    background-color: #61dafb;
+    content: "jsx";
+}
+.gatsby-highlight pre[class="language-puml"]::before {
+    background-color: #61dafb;
+    content: "puml";
+}
+.gatsby-highlight pre[class="language-c"]::before {
+    background-color: #61dafb;
+    content: "c";
+}
+
+.gatsby-highlight pre[class="language-js"]::before {
+    background-color: #f7df1e;
+    content: "js";
+}
+
+.gatsby-highlight pre[class="language-ts"]::before {
+    background-color: #f7df1e;
+    content: "ts";
+}
+.gatsby-highlight pre[class="language-cpp"]::before {
+    background-color: #f7df1e;
+    content: "cpp";
+}
+.gatsby-highlight pre[class="language-python"]::before {
+    background-color: #f7df1e;
+    content: "python";
+}
+.gatsby-highlight pre[class="language-java"]::before {
+    background-color: #f7df1e;
+    content: "java";
+}
+.gatsby-highlight pre[class="language-tex"]::before {
+    background-color: #61dafb;
+    content: "tex";
+}
+
+.gatsby-highlight pre[class="language-shell"]::before {
+    content: "shell";
+}
+
+.gatsby-highlight pre[class="language-json"]::before {
+    content: "json";
+}
+
+.gatsby-highlight pre[class="language-text"]::before {
+    content: "text";
+}
+
+.gatsby-highlight pre[class="language-markdown"]::before {
+    content: "markdown";
+}
+
+.gatsby-highlight pre[class="language-html"]::before {
+    content: "html";
+    background: #005a9c;
+    color: white;
+}
+
+.gatsby-highlight pre[class="language-css"]::before {
+    content: "css";
+    background: #ff9800;
+    color: white;
 }
