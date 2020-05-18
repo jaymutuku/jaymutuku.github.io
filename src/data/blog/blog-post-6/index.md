@@ -2,7 +2,7 @@
 category: 'blog'
 cover: './cover.jpg'
 title: 'Inspiration Post'
-description: 'These are the blog that inspire me!'
+description: 'These are the blogs that inspire me!'
 date: '2020-05-18'
 tags: ['Inspiration']
 published: true
@@ -24,7 +24,7 @@ This excerpt  is from this [blog](https://queue.acm.org/detail.cfm?id=3197520)
 
 ### What do you thing about Artifical Intelligence?
 
-AI is here to stay.
+AI is here to stay and quantum computing is the next in thing.
 
 ####   Linear Algebra
 
