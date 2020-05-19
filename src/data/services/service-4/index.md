@@ -2,5 +2,5 @@
 category: 'services'
 title: 'Documentation'
 icon: 'edit'
-description: 'Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat.'
+description: 'Provides bug reports, test summary reports, test data and test metrics.'
 ---

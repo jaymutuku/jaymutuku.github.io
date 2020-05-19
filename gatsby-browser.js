@@ -2,6 +2,6 @@
  */
 import "./src/assets/styles/global.css";
 
-import "./src/highlight.css";
+import "./src/assets/styles/highlight.css";
 
-// require("prismjs/themes/prism-okaidia.css");
+

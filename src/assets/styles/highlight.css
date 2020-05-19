@@ -6,8 +6,6 @@
  * @author Rose Pritchard
  */
 
- 
-
 code[class*="language-"],
 pre[class*="language-"] {
     color: #ccc;
@@ -143,7 +141,7 @@ pre[class*="language-"] {
     /* position: relative; */
 }
 
-.gatsby-highlight pre[class*="language-"].line-numbers {
+.gatsby-highlight pre[class*="language-"]{
     background-color: transparent;
     margin: 0;
     padding: 0;
@@ -162,7 +160,7 @@ pre[class*="language-"] {
     color: #ccc;
 }
 
-.gatsby-highlight pre[class*="language-"].line-numbers {
+.gatsby-highlight pre[class*="language-"]{
     background-color: transparent;
     border-width: 0px;
     border-style: initial;
@@ -263,7 +261,7 @@ pre[class*="language-"] {
         'Liberation Mono', 'Nimbus Mono L', Monaco, 'Courier New', Courier,
         monospace;
 
-    background-color: black;
+    background-color: grey;
     color: white;
     z-index: 0;
 

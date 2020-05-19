@@ -2,5 +2,5 @@
 category: 'services'
 title: 'Test Case Design'
 icon: 'draw-polygon'
-description: 'Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat.'
+description: 'Skillful in designing test cases, knows the difference between a test step and a test case.'
 ---
