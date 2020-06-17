@@ -37,16 +37,7 @@ module.exports = {
               options: {
                 className: 'gatsby-remark-code-title',
              }
-          },        
-          {
-            resolve: 'gatsby-remark-prismjs',
-            options: {                
-                aliases: {sh: "bash", js:"javascript", bash:"shell", md:"markdown"},              
-                
-            }
-          },
-          `gatsby-remark-mathjax`,
-          `gatsby-remark-katex`,
+          }
         ]
       }
     },
