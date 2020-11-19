@@ -1,5 +1,5 @@
 ---
 category: 'skills'
-title: 'ZEPHYR'
-percentage: 60
+title: 'Zephyr'
+percentage: 85
 ---
