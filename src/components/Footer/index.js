@@ -21,7 +21,7 @@ const Footer = () => (
           LinkedIn
         </Styled.Link>
         <Styled.Link href="https://jaymutuku.netlify.app" rel="noreferrer noopener" target="_blank">
-          Other Blog
+          Blog
         </Styled.Link>
       </Styled.Links>
     </Container>
